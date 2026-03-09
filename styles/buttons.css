@@ -29,6 +29,10 @@
         var(--brand-color-primary)100%
     );
     --btn-color:var(--surface-color);
+    
+    -webkit-background-clip: initial;
+    background-clip: initial;
+    color: var(--btn-color);
 
 }
 
@@ -51,20 +55,36 @@
     position: relative;
 
     &::before{
-        content: "";
+        content: '';
         position: absolute;
         border-radius: inherit;
         inset: 0.09375rem;
         background-color: var(--bg-color);
     }
+
     &::after{
         content: attr(aria-label);
         background: var(--btn-bg-color);
         /* pede para recortar ao invés de ser todo o background, deixa só o texto */
-        --webkit-background-clip:text;
+        -webkit-background-clip:text;
         background-clip: text;
         color:transparent;
         position: relative;
         z-index: 1;
     }
+}
+
+@media (width >= 80em){
+  
+    .btn-sm{
+        padding: .75rem 1.5rem;
+        font-size: var(--fs-base);
+    }
+    
+    .btn-md{
+        padding: 1rem 2rem;
+        font-size: 1.125rem;
+    }
+
+
 }
