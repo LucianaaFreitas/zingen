@@ -63,7 +63,7 @@
         /* pede para recortar ao invés de ser todo o background, deixa só o texto */
         --webkit-background-clip:text;
         background-clip: text;
-        color:transparent ;
+        color:transparent;
         position: relative;
         z-index: 1;
     }
