@@ -35,7 +35,7 @@
 
     /* font-size(tamanho), para mobile, no style guide está, size 40px, define-se o nome da variável e calcula os rem */
     --fs-sm: 0.875rem;
-    --fs-base: 1.25rem;
+    --fs-base: 1rem;
     --fs-lg: 1.25rem;
     --fs-xl: 1.5rem;
     --fs-2xl:2.5rem;
