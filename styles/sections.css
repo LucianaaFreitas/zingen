@@ -7,7 +7,7 @@ section{
     & header {
         & strong{
             display: block;
-            font: var(--fw-md)var(--fs-sm)/100% var(--ff-sans);
+            font: var(--fw-md)var(--fs-sm) /100% var(--ff-sans);
             letter-spacing: 0.08em;
             /* deixa todo o texto em caixa alta */
             text-transform: uppercase;

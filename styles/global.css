@@ -27,7 +27,7 @@
     --brand-gradient:#FC4A1A #F7B733;
 
     /* variaveis de fontes */
-    --ff-sans:'Inter', 'Sistem-ui', sans-serif;
+    --ff-sans:'Inter', system-ui, sans-serif;
     /* font-width(largura) */
     --fw-base:400;
     --fw-md:500;
