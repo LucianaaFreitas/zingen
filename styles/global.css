@@ -114,6 +114,12 @@ ul[role="list"]{
     list-style: none;
 }
 
+img{
+    max-width: 100%;
+    display: inline-block;
+}
+
+
 
 /* se a largura for igual ou maior que 80em 1280px mude as fontes (isso diz que é mobile),
  calcula os rem dos sizes do style guide.
