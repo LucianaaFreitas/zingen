@@ -63,14 +63,15 @@ html{
     
     /* evita o transbordamento para não ter rolagem de um lsdo para o outro */
     overflow-x: hidden;
-
+    
     /* deixa o scroll suave */
     scroll-behavior: smooth;
-
+    
 }
 
 body{
- background-color: var(--bg-color);
+    overflow-x: hidden;
+    background-color: var(--bg-color);
     
 
 }
