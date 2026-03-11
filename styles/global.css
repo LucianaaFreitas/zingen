@@ -60,6 +60,10 @@ html{
     line-height: 1.6;
     color: var(--text-color-primary);
 
+    
+    /* evita o transbordamento para não ter rolagem de um lsdo para o outro */
+    overflow-x: hidden;
+
 }
 
 body{
